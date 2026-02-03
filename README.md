@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&pause=800&color=61DAFB&center=true&vCenter=true&width=800&lines=React+Complete+Learning+Project;Learn+React+by+Building+Real+Apps;Modern+Frontend+Development;Clean+Code+%7C+Scalable+UI+%7C+Best+Practices" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&pause=800&color=61DAFB&center=true&vCenter=true&width=900&lines=React+Projects+Collection;Learn+React+by+Building+Real+Apps;Modern+Frontend+Development;Clean+Code+%7C+Scalable+UI+%7C+Best+Practices" />
 </p>
 
 <p align="center">
@@ -15,85 +15,67 @@
 
 ---
 
-# ⚛️ React Complete Learning Project
+# ⚛️ React Projects Collection
 
-🚀 A **modern React.js project** built to master frontend development by **building real-world features**, not just watching tutorials.
+🚀 A **collection of React.js projects** built to master frontend development by **learning through real-world implementations**, not just tutorials.
 
-This project reflects **professional React practices**, clean architecture, reusable components, and scalable UI design.
+This repository demonstrates **modern React practices**, clean folder structure, reusable components, and scalable UI patterns.
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Repository Objective
 
 ✅ Learn React from basics to advanced  
-✅ Understand component-based architecture  
-✅ Build real CRUD-based application  
-✅ Follow industry-level folder structure  
-✅ Create a strong GitHub portfolio project  
+✅ Strengthen React fundamentals with hands-on projects  
+✅ Understand routing, state management & hooks  
+✅ Build portfolio-ready React applications  
+✅ Follow industry-level project structure  
 
 ---
 
-## 🧠 Concepts Covered
+## 📁 Projects Included
 
-### ⚛️ React Core
+| No. | Project Name | Concepts Covered |
+|----|-------------|------------------|
+| 01 | React Basics | Components, JSX, Props |
+| 02 | Background Changer | State & Events |
+| 03 | Password Generator | Logic & Controlled Inputs |
+| 04 | Currency Converter | API & State |
+| 05 | React Router | Routing & Navigation |
+| 06 | React Router Project | Nested Routes |
+| 07 | Context API | Global State Management |
+| 08 | useReducer | Complex State Logic |
+
+---
+
+## 🧠 Core Concepts Covered
+
 - JSX & Virtual DOM  
 - Functional Components  
 - Props & State  
-- Hooks (`useState`, `useEffect`)  
+- React Hooks (`useState`, `useEffect`, `useContext`, `useReducer`)  
 - Conditional Rendering  
 - Event Handling  
-- Controlled Forms  
-
----
-
-### 🧩 Architecture & Logic
-- Reusable Components  
-- Parent–Child Communication  
-- State Lifting  
-- CRUD Operations  
-- LocalStorage Persistence  
-
----
-
-### 🎨 UI & Styling
-- Responsive Design  
-- Mobile-first layout  
-- Tailwind CSS / Custom CSS  
-- Clean & modern UI  
-
----
-
-## ✨ Key Features
-
-🚀 Modern React (Hooks-based)  
-🔁 Dynamic UI updates  
-💾 Persistent browser storage  
-📱 Fully responsive design  
-🧼 Clean & maintainable code  
+- React Router  
+- Global State Management  
 
 ---
 
 ## 🛠️ Tech Stack
 
 | Tech | Usage |
-|------|-------|
+|------|------|
 | ⚛️ React.js | Frontend |
 | 🟨 JavaScript (ES6+) | Logic |
-| 🎨 CSS / Tailwind | Styling |
+| 🎨 CSS | Styling |
 | ⚡ Vite | Build Tool |
 | 🌍 Git & GitHub | Version Control |
 
 ---
 
----
-
 ## 🚀 Getting Started
 
-To run this project locally:
-
+Clone the repository:
 ```bash
 git clone https://github.com/VijayPrajapatiCodes/React-Projects.git
 cd React-Projects
-npm install
-npm run dev
-
