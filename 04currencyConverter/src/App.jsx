@@ -23,7 +23,7 @@ function App(){
              ))} 
         
            </select>
-  
+      
         <select  value={currency} onChange={(e)=>setcurrency(e.target.value)}>
             {currenc.map(([currency,name])=>(
                <option key={currency} value={currency}>
@@ -32,8 +32,15 @@ function App(){
             ))}
 
         </select>
-      
-      
+        {/* <button onClick={()=>{
+          setcurrency(con);
+          setcon(currency)
+        }}
+        >
+          Swap
+        </button> */}
+
+    
 
 
 <p  class="text-center text-emerald-400 font-bold mt-3 text-lg">
@@ -43,10 +50,18 @@ function App(){
 <p  class="text-center text-emerald-400 font-bold mt-3 text-lg">
   Target ({con.toUpperCase()}): {curre?.[con] || "Loading..."}
 </p>
-
+    <button className="flex relative  bottom-20 px-1 bg-red-500 hover:transform duration-150 hover:scale-125 rounded font-bold text-white" onClick={()=>{
+          setcurrency(prev=>{
+            setcon(prevCon=>prev);
+            return con;
+          })
+          
+        }}> Swap</button>
+      
 
         </div>
         </div>
+        
     )
 }
 
